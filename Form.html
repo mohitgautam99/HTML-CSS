@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+
+<body>
+    <style>
+        .container {
+            border: 2px solid black;
+
+            margin-top: 0px;
+            padding: 20px;
+            font-size: 10px;
+        }
+    </style>
+
+    <form action="">
+
+        <fieldset>
+              <legend>Html Form Dummy</legend>
+
+        <h2>Create a Form useing html</h2>
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="Email">Enter Email:</label>
+        <input type="text" id="Email">
+        <br>
+        <br>
+        Gender:
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female">
+        <br>
+        <br>
+        Religion:
+        <label for="hindu">Hindu</label>
+        <input type="checkbox" id="hindu">
+        <label for="Muslim">Muslim</label>
+        <input type="checkbox" id="Muslim">
+        <label for="sikk">Sikk</label>
+        <input type="checkbox" id="sikk">
+        <br><br>
+
+        <label for="selector">Select your subject</label>
+        <select name="subjects" id="selector">
+            <option value="math">math</option>
+            <option value="math">English</option>
+            <option value="math">Hindi</option>
+            <option value="math">Science</option>
+            <option value="math">Geology</option>
+        </select>
+
+        <br><br>
+        <label for="date">Date</label>
+        <input type="date" id="date">
+        <textarea name="textarea" id="textarea" cols="12" rows="5" placeholder="text Here"></textarea>
+        <br><br>
+        <!-- <input type="submit" value="Submit"> -->
+        <button>Submit</button>
+    </fieldset>
+    </form>
+</body>
+
+</html>

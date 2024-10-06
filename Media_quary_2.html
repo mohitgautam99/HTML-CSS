@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            border: 2px solid black;
+            display: flex;
+           width: fit-content;
+            margin: 10px;
+        }
+
+        .box{
+            width:50px;
+            height:50px;
+            border: 2px solid rgb(15, 214, 144);
+        }
+
+        #bod1{
+         background-color: aqua;
+        }
+        #bod2{
+         background-color: rgb(14, 235, 110);
+        }
+        #bod3{
+         background-color: rgb(17, 124, 200);
+        }
+        #bod4{
+         background-color: rgb(135, 117, 120);
+        }
+        #bod5{
+         background-color: #9cee10;
+        }
+
+       
+        @media  (min-width :400px) {
+            .container{
+            flex-direction: row; 
+            }
+            
+        }
+        @media  (max-width :400px) {
+            .container{
+            flex-direction: column; 
+            }
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="bod1">1</div>
+        <div class="box" id="bod2">2</div>
+        <div class="box" id="bod3">3</div>
+        <div class="box" id="bod4">4</div>
+        <div class="box" id="bod5">5</div>
+        <div class="box" id="bod3">3</div>
+        <div class="box" id="bod4">4</div>
+        <div class="box" id="bod5">5</div>
+    </div>
+</body>
+
+</html>
